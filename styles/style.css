@@ -1,0 +1,35 @@
+html {
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+    background-color: #00539F;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0; /*Puedes haber notado que hay un hueco horrible en la parte superior de body. Esto sucede porque los navegadores vienen con estilos por defecto, ¡incluso cuando aún no se ha aplicado ningún archivo CSS! Esto podría parecer una mala idea, pero se quiere que aun una página sin estilizar sea legible. Para deshacerte de este espacio elimina el estilo por defecto, agregando margin: 0;.*/
+    padding: 20px 0;
+    color: #00539f;
+    text-shadow: 3px 3px 1px black;
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 2; /*Espaciado entre una linea y tora */
+    letter-spacing: 1px; /*Espacio entre las letras*/
+}
+
+body {
+    width: 600px; /* esto hará que el cuerpo siempre tenga 600 píxeles de ancho.*/
+    margin: 0 auto; /*cuando seleccionas dos valores dentro de propiedades como margin o padding, el primer valor afectará los lados superior (top) e inferior (bottom) (en este caso haciéndolo en 0), y el segundo valor los lados izquierdo (left) y derecho (right) (aquí, auto es un valor especial que divide el espacio disponible entre derecha e izquierda). Puedes usar esta propiedad con uno, dos, tres o cuatro valores*/
+    background-color: #ff9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black; /*este simplemente pone un borde de 5 píxeles de ancho, continuo y de color negro alrededor del elemento body*/
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+}
